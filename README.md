@@ -50,4 +50,14 @@
     puts MyModule.add(2,2)
   ```
 - modules need to be `include`d before they can be used without scope resolution
+  ```ruby
+    module MyModule
+      def MyModule.add(a,b)
+        a+b
+      end
+    end
+  
+    include MyModule
+    puts add(2,2)
+  ```
 - modules can be `include`d into multiple classes to enable the class to have additional behavior
