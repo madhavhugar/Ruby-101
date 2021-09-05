@@ -89,7 +89,8 @@ puts hash_literal.has_key?('array') # false
 
 - we have `for`, `while`, `until`, `loop` (and `each`) as looping constructs in ruby
 - to define range use `1..10` syntax; for example `for i in 1..10 do puts i end`
-  **Blocks and Procs**
+
+**Blocks and Procs**
 
 A Ruby block may be regarded as a sort of nameless function or method and its most frequent use is to provides a means
 of iterating over items from a list or range of values. Blocks may either be delimited by curly brackets { and } or by
