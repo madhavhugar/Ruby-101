@@ -84,3 +84,8 @@ hash_literal = { 'key': 'value' }
 puts hash_literal.has_key?(:array) # true
 puts hash_literal.has_key?('array') # false
 ```
+
+**Loops and iterators**
+
+- we have `for`, `while`, `until`, `loop` (and `each`) as looping constructs in ruby
+- to define range use `1..10` syntax; for example `for i in 1..10 do puts i end`
